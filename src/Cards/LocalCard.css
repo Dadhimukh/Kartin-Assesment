@@ -1,0 +1,22 @@
+div.cardsDetails {
+  display:inline-block;
+   background-color: aliceblue;
+}
+
+.cardsDetails {
+  border: 2px solid rgb(13, 13, 13);
+  border-radius: 10px;
+  margin: 15px;
+  width: 30%;
+}
+.cards{
+   display: flex;
+   justify-content: space-evenly
+   ;align-items: center;
+}
+.cardsDetails img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
