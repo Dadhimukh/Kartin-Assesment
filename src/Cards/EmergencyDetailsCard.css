@@ -1,22 +1,25 @@
-.table{
-   margin-top: 5px;
-   border: 2px solid black;
-   width: 100%;
-   border-radius: 10px;
-   background-color: aliceblue;
+div.detailsContact {
+  background-color: rgb(216, 233, 248);
+  height: 100vh;
+  border-radius: 10px;
+}
+.table {
+  margin-top: 5px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgb(216, 233, 248);
 }
 
-th.col{
-   border-bottom: 2px solid darkblue;
-   font-size: 2rem;
+th.col {
+  border-bottom: 2px dotted darkblue;
+  font-size: 2rem;
 }
 
-
-td.column{
-   border-bottom: 2px solid red;
-   text-align: center;   font-size: 2rem;
+td.column {
+  border-bottom: 2px dotted rgb(181, 180, 180);
+  text-align: center;
+  font-size: 2rem;
 }
-
-tr:hover{
-   background-color: #c0f5f8;
+tr:hover {
+  background-color: #c0f5f8;
 }

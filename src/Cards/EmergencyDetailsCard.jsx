@@ -3,7 +3,7 @@ import "./EmergencyDetailsCard.css";
 
 const EmergencyDetailsCard = (props) => {
   return (
-    <>
+    <div>
       <div className="detailsContact">
         <table className="table">
           <thead className="thead">
@@ -28,7 +28,7 @@ const EmergencyDetailsCard = (props) => {
           </tbody>
         </table>
       </div>
-    </>
+    </div>
   );
 };
 

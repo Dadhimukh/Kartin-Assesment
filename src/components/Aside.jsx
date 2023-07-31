@@ -7,7 +7,7 @@ import ExercisesAndFitness from "../Routes/ExercisesAndFitness";
 import HealthyEating from "../Routes/HealthyEating";
 import LocalSupports from "../Routes/LocalSupports";
 import EmergencyDetails from "../Routes/EmergencyDetails";
-import RemainderDetails from "../Routes/RemainderDetails";
+import ReminderDetails from "../Routes/ReminderDetails";
 import { Routes, Route } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
@@ -47,7 +47,7 @@ const Aside = () => {
           <MenuBar data={"Exercises and Fitness"} function={handelClickToEF} />
           <MenuBar data={"Local Supports"} function={handelClickToLS} />
           <MenuBar data={"Emergency Details"} function={handelClickToED} />
-          <MenuBar data={"Remainder"} function={handelClickToREM} />
+          <MenuBar data={"Reminders"} function={handelClickToREM} />
         </div>
       </div>
       <div className="contentContainer">
@@ -66,7 +66,7 @@ const Aside = () => {
           ></Route>
           <Route
             path="/remainder details"
-            element={<RemainderDetails />}
+            element={<ReminderDetails />}
           ></Route>
         </Routes>
       </div>
