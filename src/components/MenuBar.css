@@ -1,0 +1,22 @@
+div.menuBarData{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.menuBarData{
+   height: 8%;
+   cursor: pointer;
+   margin: 5px;
+   padding: 5px;
+   width: 90%;
+   font-weight: bolder;
+   word-spacing: 0.1rem;
+   letter-spacing: 0.1rem;
+   font-size: 1rem;
+   color: cadetblue;
+   background-color: aliceblue;
+   border-radius: 20px;
+}
+.menuBarData:hover{
+   background-color: #c0f5f8;
+}
