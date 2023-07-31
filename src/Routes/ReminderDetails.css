@@ -1,8 +1,9 @@
 .reminderContainer {
-  background-color: rgb(216, 233, 248);
+  background-color: #ffb8b1;
   height: 100%;
   margin-top: 5px;
   border-radius: 10px;
+  box-shadow: 0 0 5px 0 red;
 }
 
 .reminderContainer h1,
@@ -10,6 +11,7 @@ h2 {
   margin: 0;
   text-align: center;
   text-decoration: underline;
+  color: #993411;
 }
 
 input {
@@ -19,17 +21,18 @@ input {
   font-size: 1.3rem;
   border: none;
   background: none;
-  border-bottom: 2px solid rgb(17, 16, 16);
-  color: #3e3e3e;
+  border-bottom: 2px solid #993411;
+  color: #993411;
 }
 input::placeholder {
-  color: #3e3e3e;
+  color: #993411;
 }
 
 label {
   font-size: 1.3rem;
   width: 20%;
   font-weight: 700;
+  color: #993411;
 }
 
 .reminderTextDetails,
@@ -39,6 +42,7 @@ label {
   justify-content: center;
   align-items: center;
   padding: 10px;
+  color: #993411;
 }
 .button {
   display: flex;
@@ -47,19 +51,20 @@ label {
   padding: 20px;
 }
 .button button {
-  background-color: rgba(15, 244, 187, 0.282);
+  background-color:#ffb8b1;
   border: none;
   border-radius: 10px;
   padding: 15px;
   font-size: 1.4rem;
   font-weight: 700;
-  color: rgb(8, 45, 69);
+  color:#993411;
   cursor: pointer;
-  box-shadow: 0 0 6px 0 #eee;
+  box-shadow: 0 0 2px 0 red;
 }
 
 .button button:hover {
-  background-color: rgba(108, 251, 196, 0.485);
+  background-color: #993411;
+  color: #ffb8b1;
 }
 
 .raContainer ul {
@@ -71,5 +76,5 @@ label {
   padding: 10px;
   font-size: 1.3rem;
   font-weight: 700;
-  color: aliceblue;
+  color:#993411;
 }
