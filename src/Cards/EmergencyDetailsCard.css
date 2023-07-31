@@ -1,5 +1,5 @@
 div.detailsContact {
-  background-color: rgb(216, 233, 248);
+  background-color: #ffb8b1;
   height: 100vh;
   border-radius: 10px;
 }
@@ -7,19 +7,23 @@ div.detailsContact {
   margin-top: 5px;
   width: 100%;
   border-radius: 10px;
-  background-color: rgb(216, 233, 248);
+  background-color: #ffb8b1;
+  box-shadow: 0 0 5px 0 red;
 }
 
 th.col {
-  border-bottom: 2px dotted darkblue;
+  border-bottom: 2px dotted #993441;
   font-size: 2rem;
+  color: #993441;
 }
 
 td.column {
-  border-bottom: 2px dotted rgb(181, 180, 180);
+  border-bottom: 2px dotted #993441;
   text-align: center;
-  font-size: 2rem;
+  font-size: 2rem;  color: #993441;
+
 }
-tr:hover {
-  background-color: #c0f5f8;
+tr td:hover {
+  background-color: #993441;
+  color: #ffb8b1;
 }
