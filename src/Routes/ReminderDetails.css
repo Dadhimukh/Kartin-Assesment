@@ -1,0 +1,75 @@
+.reminderContainer {
+  background-color: rgb(216, 233, 248);
+  height: 100%;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.reminderContainer h1,
+h2 {
+  margin: 0;
+  text-align: center;
+  text-decoration: underline;
+}
+
+input {
+  height: 30px;
+  width: 80%;
+  outline: none;
+  font-size: 1.3rem;
+  border: none;
+  background: none;
+  border-bottom: 2px solid rgb(17, 16, 16);
+  color: #3e3e3e;
+}
+input::placeholder {
+  color: #3e3e3e;
+}
+
+label {
+  font-size: 1.3rem;
+  width: 20%;
+  font-weight: 700;
+}
+
+.reminderTextDetails,
+.dateDetails,
+.timeDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.button button {
+  background-color: rgba(15, 244, 187, 0.282);
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: rgb(8, 45, 69);
+  cursor: pointer;
+  box-shadow: 0 0 6px 0 #eee;
+}
+
+.button button:hover {
+  background-color: rgba(108, 251, 196, 0.485);
+}
+
+.raContainer ul {
+  display: flex;
+  justify-content: center;
+}
+
+.raContainer ul li {
+  padding: 10px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: aliceblue;
+}
