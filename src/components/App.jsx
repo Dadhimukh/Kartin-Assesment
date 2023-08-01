@@ -1,13 +1,11 @@
 import React from "react";
-import Header from "./Header";
-import Aside from "./Aside";
 import "./App.css";
+import LoginPage from "./LoginPage";
 
 const App = () => {
   return (
     <div className="container">
-      <Header />
-      <Aside />
+      <LoginPage />
     </div>
   );
 };
