@@ -14,7 +14,9 @@ h2 {
   color: white;
 }
 
-.dateDetails input {
+.reminderTextDetails input,
+.dateDetails input,
+.timeDetails input {
   height: 30px;
   width: 80%;
   outline: none;
@@ -28,7 +30,9 @@ h2 {
   color: white;
 }
 
-.dateDetails label {
+.reminderTextDetails label,
+.dateDetails label,
+.timeDetails label {
   font-size: 1.3rem;
   width: 20%;
   font-weight: 700;

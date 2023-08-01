@@ -56,7 +56,6 @@ const ReminderDetails = () => {
           onChange={handleReminderTextChange}
         />
       </div>
-
       <div className="dateDetails">
         <label>Date :-</label>
         <input type="date" value={date} onChange={handleDateChange} />
