@@ -29,6 +29,9 @@ h2 {
 .dateDetails input::placeholder {
   color: white;
 }
+.reminderTextDetails input::placeholder {
+  color: white;
+}
 
 .reminderTextDetails label,
 .dateDetails label,
