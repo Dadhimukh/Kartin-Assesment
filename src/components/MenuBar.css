@@ -13,14 +13,14 @@ div.menuBarData {
   word-spacing: 0.1rem;
   letter-spacing: 0.1rem;
   font-size: 1.5rem;
-  color: #993411;
-  background-color: #ffb8b1;
-  box-shadow: 0 0 2px 0 red;
+  color: white;
+  background-color: #0d3562;
+  box-shadow: 0 0 2px 0 white ;
 
   border-radius: 20px;
   text-align: center;
 }
 .menuBarData:hover {
-  background-color: #993411;
-  color: #ffb8b1;
+  background-color: white;
+  color: #0d3562;
 }

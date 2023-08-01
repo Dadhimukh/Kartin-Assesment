@@ -12,11 +12,11 @@ div.asideContainer {
   width: 30%;
 }
 .menuBars{
-   background-color: #ffb8b1;
+   background-color: #0d3562;
    border-radius: 10px;
    height: 100%;
    margin: 5px;
-   box-shadow: 0 0 6px 0 red;
+   box-shadow: 0 0 6px 0 white;
 }
 .contentContainer {
   width: 70%;

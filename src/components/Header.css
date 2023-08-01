@@ -6,13 +6,13 @@ body {
 .navbar {
   width: 100vw;
   height: 10vh;
-  background-color: #ffb8b1;
+  background-color: #0d3562;
   position: fixed;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 0 6px 0 red;
+  box-shadow: 0 0 6px 0 white;
 }
 .logo {
   padding-left: 10px;
@@ -32,7 +32,7 @@ body {
   font-weight: 700;
   text-decoration: underline;
   padding-left: 10px;
-  color: #993441;
+  color: white;
 }
 .companyName{
   font-weight: 700;
@@ -46,7 +46,7 @@ body {
 .profile img {
   margin-right: 20px;
   width: 100%;
-  cursor: pointer;  box-shadow: 0 0 6px 0 red;
+  cursor: pointer;  box-shadow: 0 0 6px 0 white;
   border-radius: 50%;
 
 }

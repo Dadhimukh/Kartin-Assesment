@@ -7,10 +7,10 @@ const LocalSupports = () => {
     <div
       className="cardContainer"
       style={{
-        backgroundColor: "#ffb8b1",
+        backgroundColor: "#0d3562",
         marginTop: "5px",
         borderRadius: "10px",
-        boxShadow: "0 0 2px 0 red"
+        boxShadow: "0 0 2px 0 white",
       }}
     >
       <Card data={Cardsdata} />

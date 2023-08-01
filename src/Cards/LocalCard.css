@@ -3,23 +3,23 @@ body{
 }
 div.cardsDetails {
   display: inline-block;
-  background-color:#ffb8b1;
+  background-color:#0d3562;
 }
 div.cardsDetails:hover{
-  background-color: #993441;
+  background-color: white;
 }
 
 .cardsDetails {
-  border: 1px solid #993441;
-  box-shadow: 0 0 2px 0 red;
+  border: 1px solid white;
+  box-shadow: 0 0 2px 0 white;
   border-radius: 10px;
   margin: 5px 5px 0px 10px;
   width: 30%;
-  color: #993441;
+  color: white;
 
 }
 .cardsDetails:hover{
-  color: #ffb8b1;
+  color: #0d3562;
 }
 .cards {
   display: flex;
