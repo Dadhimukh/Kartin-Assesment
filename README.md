@@ -9,4 +9,6 @@
 # REMINDER SCREEN
 #![Screenshot (95)](https://github.com/Dadhimukh/Kartin-Assesment/assets/108916524/46570f1b-bbe4-4b5c-9919-ab914b89a965)
 # LOCAL SUPPORT SCREEN
-#
+#![Screenshot (96)](https://github.com/Dadhimukh/Kartin-Assesment/assets/108916524/80c2d61f-1ffb-4134-b03e-90c9d0870658)
+# EMERGENCY CONTACT
+#![Screenshot (97)](https://github.com/Dadhimukh/Kartin-Assesment/assets/108916524/8da61148-becd-47bc-a293-3bb0aedf5750)
