@@ -1,7 +1,7 @@
 div.asideContainer {
   display: flex;
   flex-direction: row;
-  padding-top: 10vh;
+  padding-top: 11vh;
 }
 .asideContainer {
   height: 100vh;
