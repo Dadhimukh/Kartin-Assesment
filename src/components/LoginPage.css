@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.loginNavbar {
+  width: 100vw;
+  height: 10vh;
+  background-color: #0d3562;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 6px 0 white;
+  padding-top: 5px;
+}
+.loginLogo {
+  padding-left: 10px;
+  height: 100%;
+  width: 5%;
+  display: flex;
+  align-items: center;
+}
+.loginLogo img {
+  width: 100%;
+  cursor: pointer;
+  border-radius: 5%;
+}
+.loginLogoDetails {
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  text-decoration: underline;
+  padding-left: 10px;
+  color: white;
+}
+
+.loginSection {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.loginInput {
+  padding: 5px;
+}
+.loginInput label {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: large;
+}
+
+.loginInput input {
+  outline-style: none;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: #0d3562;
+}
+.loginInput input::placeholder {
+  color: #0d3562;
+}
+.loginSection button {
+  background-color: white;
+  box-shadow: 0 0 2px 0 white;
+  cursor: pointer;
+  color: #0d3562;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: medium;
+}
+.loginSection button:hover {
+  color: white;
+  background-color: #0d3562;
+}
