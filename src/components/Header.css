@@ -13,6 +13,7 @@ body {
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 0 6px 0 white;
+  padding-top: 2px;
 }
 .logo {
   padding-left: 10px;
