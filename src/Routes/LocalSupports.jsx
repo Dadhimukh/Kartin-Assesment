@@ -1,17 +1,12 @@
 import React from "react";
 import Cardsdata from "../Data/LocalSupportsData";
 import Card from "../Cards/LocalCard";
+import "./LocalSupport.css"
 
 const LocalSupports = () => {
   return (
     <div
-      className="cardContainer"
-      style={{
-        backgroundColor: "#0d3562",
-        marginTop: "5px",
-        borderRadius: "10px",
-        boxShadow: "0 0 2px 0 white",
-      }}
+      className="lscardContainer"
     >
       <Card data={Cardsdata} />
     </div>
