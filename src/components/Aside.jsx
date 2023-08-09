@@ -2,12 +2,12 @@ import React from "react";
 import "./Aside.css";
 import MenuBar from "./MenuBar";
 import Content from "./Content";
-import AlwaysHappy from "../Routes/AlwaysHappy";
-import ExercisesAndFitness from "../Routes/ExercisesAndFitness";
-import HealthyEating from "../Routes/HealthyEating";
-import LocalSupports from "../Routes/LocalSupports";
-import EmergencyDetails from "../Routes/EmergencyDetails";
-import ReminderDetails from "../Routes/ReminderDetails";
+import AlwaysHappy from "./AlwaysHappy";
+import ExercisesAndFitness from "./ExercisesAndFitness";
+import HealthyEating from "./HealthyEating";
+import LocalSupports from "./LocalSupports";
+import EmergencyDetails from "./EmergencyDetails";
+import ReminderDetails from "./ReminderDetails";
 import { Routes, Route } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
