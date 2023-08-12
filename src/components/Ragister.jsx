@@ -5,7 +5,7 @@ const Ragister = () => {
   return (
     <div>
       <div className="ragisterContainer">
-        <div className="title">Sing Up</div>
+        <div className="title">Sign Up</div>
         <div className="input-box-Name">
           <div className="input-box underline name">
             <input type="text" placeholder="First Name" required />
